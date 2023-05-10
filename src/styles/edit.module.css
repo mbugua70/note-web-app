@@ -1,0 +1,62 @@
+.parenteditcontainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcf6f5ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inputedit {
+  padding: 12px 18px;
+  border-style: none;
+  border-bottom: 2px solid gray;
+}
+
+.detailedit {
+  padding: 12px 18px;
+  margin-block: 1rem;
+  border-style: none;
+  resize: none;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+.buttonflex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.buttonone {
+  padding: 10px 24px;
+  border-style: none;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #990011ff;
+  box-shadow: 0, 0, 1px 4px rgba(0, 0, 0, 0.9);
+  transition: all ease-out 600ms;
+}
+
+.buttontwo {
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 25px;
+  background-color: #990011ff;
+  color: #fcf6f5ff;
+  transition: all ease-out 600ms;
+}
+
+.buttonone:hover {
+  color: #fcf6f5ff;
+  background-color: #990011ff;
+}
+
+.buttontwo:hover {
+  color: #990011ff;
+  background-color: #fff;
+  box-shadow: 0, 0, 1px 4px rgba(0, 0, 0, 0.9);
+}

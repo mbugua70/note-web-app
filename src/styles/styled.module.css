@@ -1,0 +1,168 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.headercontainer {
+  width: 100%;
+  padding: 1rem;
+}
+
+.navcontainer {
+  width: 100%;
+  background-color: #fcf6f5ff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navcontainer ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navcontainer ul li:first-child {
+  color: #990011ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.plusheadericon {
+  padding: 5px;
+  background-color: #990011ff;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  transition: all ease-out 600ms;
+}
+
+.plusheadericon:hover {
+  box-shadow: 0, 0, 2px 3px rgba(0, 0, 0, 0.8);
+  background-color: rgba(153, 0, 17, 0.8);
+}
+
+.notecontainer .flexicon {
+  width: 90%;
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parentnotecontainer {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.notecontainer {
+  width: 350px;
+  padding: 20px;
+  background-color: #fcf6f5ff;
+  border-radius: 8px;
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.8);
+  margin-block: 10px;
+  list-style-type: none;
+  position: relative;
+}
+
+.plusicon,
+.editicon {
+  cursor: pointer;
+  transition: all ease 600ms;
+}
+.plusicon:hover,
+.editicon:hover {
+  color: #990011ff;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #990011ff;
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+.maincontainer {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.forms {
+  width: 50%;
+  background-color: #fcf6f5ff;
+  padding: 20px;
+  margin: 2rem auto;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.crossicon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: #990011ff;
+  padding: 5px;
+  color: #fcf6f5ff;
+  transition: all ease 700ms;
+}
+
+.crossicon:hover {
+  background-color: rgba(153, 0, 17, 0.7);
+}
+
+.flexinput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  padding: 18px 10px;
+  margin-block: 28px;
+  border-style: none;
+  border-bottom: 2px solid gray;
+}
+
+.inputtextarea {
+  padding: 26px 24px;
+  resize: none;
+  border-style: none;
+}
+
+.button {
+  padding: 12px 38px;
+  background-color: #990011ff;
+  color: #fcf6f5ff;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 20px;
+  border-style: none;
+  transition: all ease-out 600ms;
+}
+
+.button:hover {
+  background-color: rgba(153, 0, 17, 0.7);
+}
