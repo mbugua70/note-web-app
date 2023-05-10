@@ -168,3 +168,18 @@ body {
 .button:hover {
   background-color: rgba(153, 0, 17, 0.7);
 }
+
+@media only screen and (max-width: 698px) {
+  .forms {
+    width: 90%;
+  }
+  .parentnotecontainer {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0;
+  }
+  .notecontainer {
+    min-width: 100%;
+  }
+}
