@@ -114,8 +114,10 @@ body {
   background-color: #fcf6f5ff;
   padding: 20px;
   margin: 2rem auto;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.8);
   position: relative;
+  border-style: none;
+  border-radius: 8px;
 }
 
 .crossicon {
